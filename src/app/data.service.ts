@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class DataService {
 
-  url: string = '/assets/data.json';
+  url: string = './assets/data.json';
   recommendations: string[][] = [[]];
 
   constructor(private http: HttpClient) { }
