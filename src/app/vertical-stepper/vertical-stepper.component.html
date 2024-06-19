@@ -1,0 +1,22 @@
+<mat-vertical-stepper (selectionChange)="onStepChange($event)">
+    <mat-step *ngFor="let question of questions" [label]="question.question">
+      <div>
+        <mat-radio-group (change)="onSelectionChange($event, question.recommendations)">
+          <mat-radio-button *ngFor="let option of question.options" [value]="option" color="primary">
+            {{ option }}
+          </mat-radio-button>
+        </mat-radio-group>
+        
+        <br>
+
+        <h3 *ngIf="recommendationText">{{ recommendationText }}</h3>
+
+        <br>
+      </div>
+
+      <button mat-button matStepperPrevious *ngIf="questionIndex > 0">Prev. Question</button>
+      <button mat-button matStepperNext *ngIf="questionIndex < numberOfQuestionsInSection - 1">Next Question</button>
+
+      <mat-divider></mat-divider>
+    </mat-step>
+  </mat-vertical-stepper>

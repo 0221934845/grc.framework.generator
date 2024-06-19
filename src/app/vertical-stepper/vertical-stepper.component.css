@@ -1,0 +1,15 @@
+/* vertical-stepper.component.css */
+mat-radio-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  mat-radio-button {
+    margin-bottom: 8px;
+  }
+  
+  p {
+    margin-top: 16px;
+    font-style: italic;
+  }
+  

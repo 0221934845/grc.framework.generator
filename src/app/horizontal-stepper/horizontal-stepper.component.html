@@ -1,0 +1,16 @@
+<mat-horizontal-stepper (selectionChange)="onStepChange($event)">
+    <mat-step *ngFor="let section of sections; index as i" [label]="section.label">
+        <ng-container *ngIf="section.label !== 'Summary'">
+            <app-vertical-stepper (recommendationChange)="updateRecommendations($event)" [sectionIndex]="i" [sectionLabel]="section.label"></app-vertical-stepper>
+        </ng-container>
+
+        <ng-container *ngIf="section.label === 'Summary'">
+            <app-summary [recommendations]="allRecommendations"></app-summary>
+        </ng-container>
+        
+        <ng-container *ngIf="section.label !== 'Summary'">
+            <button mat-button matStepperPrevious *ngIf="sectionIndex > 0">Prev. Section</button>
+            <button mat-button matStepperNext *ngIf="sectionIndex < numberOfSections - 1">Next Section</button>    
+        </ng-container>
+    </mat-step>
+</mat-horizontal-stepper>

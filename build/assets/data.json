@@ -1,0 +1,1043 @@
+[
+	{
+		"label": "Organization",
+		"questions": [
+			{
+				"question": "What is the organization’s industry or sector of activity?",
+				"options": [
+					"Banking",
+					"Energy",
+					"Healthcare",
+					"Online Commerce",
+					"Other"
+				],
+				"recommendations": [
+					{
+						"key": "Banking",
+						"value": "The organization needs to comply with GDPR, DORA, etc."
+					},
+					{
+						"key": "Energy",
+						"value": "The organization needs to comply with NIS, NIS2, NERC CIP, etc."
+					},
+					{
+						"key": "Healthcare",
+						"value": "The organization needs to comply with GDPR, HIPAA, etc."
+					},
+					{
+						"key": "Online Commerce",
+						"value": "The organization needs to comply with GDPR, PCI DSS."
+					},
+					{
+						"key": "Other",
+						"value": "The organization should identify the regulations and standards it needs to comply with, based on its sector of activity."
+					}
+				]
+			},
+			{
+				"question": "What is the size of the organization’s workforce?",
+				"options": [
+					"Small (< 50 employees)",
+					"Medium (50 - 250 employees)",
+					"Large (> 250 employees)"
+				],
+				"recommendations": [
+					{
+						"key": "Small (< 50 employees)",
+						"value": "The organization should appoint a part-time DPO or outsource the compliance activities to professional service providers."
+					},
+					{
+						"key": "Medium (50 - 250 employees)",
+						"value": "The organization should establish internal roles such as DPO, CISO, CCO, etc."
+					},
+					{
+						"key": "Large (> 250 employees)",
+						"value": "The organization should establish dedicated units for Governance, Risk, and Compliance with clearly defined roles and responsibilities, and invest them with authority."
+					}
+				]
+			},
+			{
+				"question": "Does the organization handle PII and operate in geographical areas such as EU countries or US state of California?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization needs to comply with GDPR (for EU) or CPRA (for California)."
+					},
+					{
+						"key": "No",
+						"value": "The organization should comply with the eventual local regulations."
+					}
+				]
+			},
+			{
+				"question": "Does the organization operate in multiple countries with diverse and varying regulations?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should create a dedicated Compliance team or unit with the specific objective of developing a global compliance strategy that addresses the regulatory requirements of all countries."
+					},
+					{
+						"key": "No",
+						"value": "The organization should create a dedicated Compliance team or unit with the specific objective of developing a compliance strategy that addresses the local regulatory requirements."
+					}
+				]
+			}
+		]
+	},
+	{
+		"label": "Digital Transformation",
+		"questions": [
+			{
+				"question": "Does organization’s leadership demonstrate interest and support for Digital Transformation?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The DTO should express appreciation and gratitude, and insist for the continuing engagement and support of the leadership."
+					},
+					{
+						"key": "No",
+						"value": "The DTO should explain and emphasize the importance of leadership support for successful transformation."
+					}
+				]
+			},
+			{
+				"question": "Is Digital Transformation’s scope clearly defined?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should ensure the scope is known and that the various DT initiatives respect it."
+					},
+					{
+						"key": "No",
+						"value": "The organization should clearly define the scope, obtain sponsors’ buy-in, and communicate it to the interested parties."
+					}
+				]
+			},
+			{
+				"question": "Are Digital Transformation’s objectives (and expected outcomes) clearly defined?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should ensure the objectives and expected outcomes are known and that the various initiatives respect and align with them."
+					},
+					{
+						"key": "No",
+						"value": "The organization should clearly define the objectives and expected outcomes, and communicate them to the stakeholders."
+					}
+				]
+			},
+			{
+				"question": "Does the organization regularly measure the success of its DT initiatives?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should regularly measure the success of its various initiatives with a measurement system based on KPIs."
+					},
+					{
+						"key": "No",
+						"value": "The organization should implement a measurement system based on KPIs, and regularly measure the success of the various initiatives."
+					}
+				]
+			},
+			{
+				"question": "How does the organization measure the impact of its Digital Transformation on business performance?",
+				"options": [
+					"Financial metrics",
+					"Customer satisfaction",
+					"Operational efficiency",
+					"All of the above",
+					"None"
+				],
+				"recommendations": [
+					{
+						"key": "All",
+						"value": "The organization should implement appropriate and comprehensive metrics, and measure the impact of Digital Transformation on business performance."
+					}
+				]
+			},
+			{
+				"question": "Are the roles and responsibilities relevant to Digital Transformation clearly defined?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should ensure the roles and responsibilities are attributed appropriate levels of authority and that the principle of accountability is respected."
+					},
+					{
+						"key": "No",
+						"value": "The organization should clearly define the roles and responsibilities together with a RACI matrix, and communicate the new organigramme to the interested parties."
+					}
+				]
+			},
+			{
+				"question": "Does the organization handle a large volume of raw data?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "Digitization is the first phase of Digital Transformation. A data governance framework should be established, and data-management tools should be used. The raw data should be converted in digital format."
+					},
+					{
+						"key": "No",
+						"value": "The organization should review its data management practices and assets, in order to ensure data confidentiality, integrity and availability."
+					}
+				]
+			},
+			{
+				"question": "Does the organization run a large number of data-related processes?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "Digitalization is the second phase of Digital Transformation. The processes that can be digitalized should be identified, process-mining tools should be employed to map and analyze existing processes."
+					},
+					{
+						"key": "No",
+						"value": "The organization should evaluate its current/existing processes to identify inefficiencies, consider potential improvements, propose solutions and implement them."
+					}
+				]
+			},
+			{
+				"question": "Does the organization run a large number of manufacturing processes?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should identify the processes that can be automated, consider, evaluate and implement automation solutions such as RPA."
+					},
+					{
+						"key": "No",
+						"value": "The organization should evaluate its current/existing processes to identify inefficiencies, consider potential improvements, propose solutions and implement them."
+					}
+				]
+			},
+			{
+				"question": "Is the organization in direct contact with end users?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "Offering better experience to the end-users is the last phase of digital transformation. The organization should assess customer experience and identify areas for improvement. It should also implement digital tools (such as CRM systems) to enhance customer interaction and satisfaction."
+					},
+					{
+						"key": "No",
+						"value": "The organization should consider and explore opportunities to create or improve direct or indirect customer interactions, through digital means, and publicity and promotion campaigns."
+					}
+				]
+			}
+		]
+	},
+	{
+		"label": "Governance",
+		"questions": [
+			{
+				"question": "Does the organization have an established Governance approach?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should apply the governance framework and regularly review and improve it."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop and implement a Governance Management framework based on ISO 37000, with defined principles, outcomes and roles. The governance approach should also consider standards and frameworks for Enterprise Architecture and Project Management."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have an established Enterprise Architecture (EA) practice?",
+				"options": [
+					"Yes",
+					"No",
+					"In development"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should regularly review and update its EA practice using an established standard (TOGAF)."
+					},
+					{
+						"key": "No",
+						"value": "The organization should initiate the formation of an EA team and provide training on a EA standard (TOGAF)."
+					},
+					{
+						"key": "In development",
+						"value": "The organization should accelerate its EA team development and integrate EA training (TOGAF)."
+					}
+				]
+			},
+			{
+				"question": "How mature is organization’s Enterprise Architecture practice?",
+				"options": [
+					"Initial",
+					"Managed",
+					"Defined",
+					"Quantitatively Managed",
+					"Optimizing"
+				],
+				"recommendations": [
+					{
+						"key": "Initial",
+						"value": "The organization should start by documenting and standardizing its EA processes."
+					},
+					{
+						"key": "Managed",
+						"value": "The organization should implement a structured framework (e.g., TOGAF)."
+					},
+					{
+						"key": "Defined",
+						"value": "The organization should ensure IT alignment with business strategy and goals."
+					},
+					{
+						"key": "Quantitatively Managed",
+						"value": "The organization should measure the effectiveness of its EA practice and make improvements based on data-driven decisions."
+					},
+					{
+						"key": "Optimizing",
+						"value": "The organization should continuously enhance its EA practice for improved performance, agility, scalability, efficiency."
+					}
+				]
+			},
+			{
+				"question": "How does the organization ensure alignment between DT initiatives and business objectives?",
+				"options": [
+					"Strategic reviews",
+					"Alignment meetings",
+					"Both",
+					"No specific process"
+				],
+				"recommendations": [
+					{
+						"key": "All",
+						"value": "The organization should ensure that its DT initiatives are reviewed for alignment with business objectives, both through strategic review and regular alignment meetings."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have a dedicated PMO?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should ensure its PMO aligns with recognized Project Management standard (e.g., PMI’s PMBOK)."
+					},
+					{
+						"key": "No",
+						"value": "The organization should establish a PMO and train its staff on Project Management principles and best-practices, based on recognized standards (e.g., PMI’s PMBOK)."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have a systematic change management approach?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should ensure the process is actively followed and updated or adjusted, when necessary."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop and implement a systematic change management approach based on recognized standards (e.g., PMI’s PMBOK)."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have a review process for project outcomes and lessons learned?",
+				"options": [
+					"Always",
+					"Often",
+					"Sometimes",
+					"Rarely",
+					"Never"
+				],
+				"recommendations": [
+					{
+						"key": "Always",
+						"value": "The organization should maintain and improve its current review processes."
+					},
+					{
+						"key": "Often",
+						"value": "The organization should ensure reviews are comprehensive and consistent."
+					},
+					{
+						"key": "Sometimes",
+						"value": "The organization should standardize and formalize the review process."
+					},
+					{
+						"key": "Rarely/Never",
+						"value": "The organization should implement process based on regular review sessions to capture lessons learned."
+					}
+				]
+			},
+			{
+				"question": "Are organization’s business processes documented and regularly reviewed?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should ensure that business processes’ documentation is comprehensive and up-to-date."
+					},
+					{
+						"key": "No",
+						"value": "The organization should start documenting and reviewing business processes regularly."
+					}
+				]
+			},
+			{
+				"question": "Does the organization measure business processes performance by using metrics and KPIs?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should regularly review and update KPIs."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop and implement relevant metrics and KPIs."
+					}
+				]
+			}
+		]
+	},
+	{
+		"label": "Risk Management",
+		"questions": [
+			{
+				"question": "Does the organization have a structured Risk Management approach?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should regularly review and keep up to date its Risk Management. It should regularly perform Risk Assessment and Risk Treatment, continuously monitor and review, record and report, communicate the results."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop and implement a Risk Management approach based on ISO 31000, with defined principles, processes and phases."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have a formalized Risk Management Policy and other associated policies?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should regularly review the Risk Management Policy and associated policies and documents to ensure that they provide a solid framework to defend the objectives of the organization, and make sure threat the policy is known and followed."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop and implement a Risk Management Policy, a structured framework of guidelines and principles, to guide its Risk Management approach in the efforts to reduce the risks to the objectives of the organization."
+					}
+				]
+			},
+			{
+				"question": "Does the organization conduct Risk Assessments?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should perform Risk Treatment."
+					},
+					{
+						"key": "No",
+						"value": "The organization should conduct regular Risk Assessments based on Risk Identification, Risk Analysis and Risk Evaluation."
+					}
+				]
+			},
+			{
+				"question": "Does the organization perform Risk Treatments?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should continuously monitor and review the Risk Management process, and communicate and consult with stakeholders."
+					},
+					{
+						"key": "No",
+						"value": "The organization should perform Risk Treatment based on Risk Assessments. The records should be kept as evidence."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have Business Continuity and Disaster Recovery plans for its operations and especially for its information assets?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should regularly test and update the Business Continuity and Disaster Recovery plans."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop and implement Business Continuity and Disaster Recovery plans."
+					}
+				]
+			},
+			{
+				"question": "Does organization’s leadership demonstrate interest and support for Information Security?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The DTO and/or CISO should express appreciation and gratitude, and insist for the continuing engagement and support of the leadership."
+					},
+					{
+						"key": "No",
+						"value": "The DTO and/or CISO should explain and emphasize the importance of leadership support for successful Information Security."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have an established Information Security Management System (ISMS)?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should continuously improve its ISMS."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop an ISMS following internationally recognized standards (such as ISO/IEC 27001)."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have a formalized Information Security Policy and other associated policies?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should regularly review the Information Security Policy and associated policies and documents to ensure that they provide a solid framework to defend its information assets, and make sure threat the policy is known and followed."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop and implement a formalized Information Security Policy and ensure its observance. Develop associated policies (e.g., Email, Encryption, Password, etc.)."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have a structured Risk Management approach for Information Security?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should regularly review and keep up to date its Information Security Risk Management. It should regularly perform Risk Assessment and Risk Treatment, continuously monitor and review, record and report, communicate the results."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop and implement a Risk Management approach for Information Security based on ISO standards 31000 and 27001."
+					}
+				]
+			},
+			{
+				"question": "Does the organization conduct Information Security Risk Assessments?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should perform Risk Treatment for Information Security."
+					},
+					{
+						"key": "No",
+						"value": "The organization should conduct regular Risk Assessments based on Risk Identification, Risk Analysis and Risk Evaluation."
+					}
+				]
+			},
+			{
+				"question": "Does the organization perform Information Security Risk Treatments?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should continuously monitor and review the Risk Management process, and communicate and consult with stakeholders."
+					},
+					{
+						"key": "No",
+						"value": "The organization should perform Risk Treatment based on Risk Assessments. The records should be kept as evidence."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have a systematic Risk Assessment process to identify, analyze and evaluate potential risks associated with its information assets and Digital Transformation efforts?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should regularly review and update its libraries of assets, threats and vulnerabilities, and complement them with entries that are relevant to its context."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop and implement a systematic approach for Risk Assessment  based on identification, analysis and evaluation of risks, and focused on assets, threats and vulnerabilities. The organization should use predefined libraries of assets, threats and vulnerabilities (e.g., the ones proposed by the ISO/IEC 2700X family of standards)."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have a systematic Risk Treatment process to mitigate potential risks associated with its information assets and Digital Transformation efforts?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should regularly review and update its libraries of controls and recommendations, to ensure that they appropriate and effective, and complement them with entries that are relevant to its context."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop and implement a systematic approach for Risk Treatment, based on controls and recommendations. The organization should use predefined libraries of controls (e.g., the one proposed by the ISO/IEC 2700X family of standards)."
+					}
+				]
+			},
+			{
+				"question": "How does the organization ensure the effectiveness and conformity of its ISMS?",
+				"options": [
+					"Internal audit programme",
+					"Management review",
+					"Both",
+					"No specific measures"
+				],
+				"recommendations": [
+					{
+						"key": "Internal audit programme",
+						"value": "The organization shall have an audit programme, define audit criteria and scope, create impartial and objective audit teams, perform regular audits, report to management."
+					},
+					{
+						"key": "Management review",
+						"value": "The management shall regularly review the ISMS (its inputs and results) to assess its effectiveness."
+					},
+					{
+						"key": "Both",
+						"value": "The organization should continue to regularly audit and review the ISMS effectiveness."
+					},
+					{
+						"key": "No specific measures",
+						"value": "The organization should establish a mechanism to monitor, measure, analyze and evaluate the effectiveness of its ISMS."
+					}
+				]
+			}
+		]
+	},
+	{
+		"label": "Compliance",
+		"questions": [
+			{
+				"question": "Does the organization have an established Compliance Management approach?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should repeatedly iterate through its PDCA cycle to ensure compliance with internal and external requirements, and to continuously improve its Compliance Management system."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop and implement a Compliance Management approach based on ISO 37301, with defined objectives, principles, processes and phases."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have a Compliance team or officer?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should ensure adequate training and staff the team with competent resources."
+					},
+					{
+						"key": "No",
+						"value": "The organization should appoint a compliance officer or establish a compliance team to plan and execute the compliance framework."
+					}
+				]
+			},
+			{
+				"question": "What are the regulations the organization is required to comply with?",
+				"options": [
+					"GDPR",
+					"CCPA",
+					"HIPAA",
+					"PCI DSS",
+					"DORA",
+					"Other"
+				],
+				"recommendations": [
+					{
+						"key": "All",
+						"value": "The organization should ensure compliance with selected regulations and regularly review compliance status. It should also continuously monitor its (internal and external) context, and scan for new obligations and requirements."
+					}
+				]
+			}
+		]
+	},
+	{
+		"label": "Technology",
+		"questions": [
+			{
+				"question": "Does the organization handle a large volume of data?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should establish a data governance system and a security frame. It should adopt or implement Big Data and Analytics technologies for data analysis and insights."
+					},
+					{
+						"key": "No",
+						"value": "The organization should review its data, data processing and data management practices to ensure scalability and data protection by adopting adequate measures."
+					}
+				]
+			},
+			{
+				"question": "Does the organization run processes that could be automated or digitalized?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should ensure information security and compliance in automated processes. To further improve process automation and digitalization, it could explore and evaluate the use of new technologies (e.g., IoT, Big Data, AI, ECC)."
+					},
+					{
+						"key": "No",
+						"value": "The organization should evaluate existing processes for efficiency and security improvements."
+					}
+				]
+			},
+			{
+				"question": "Is the organization using Cloud Computing services?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should implement cloud security best practices and ensure compliance with relevant standards."
+					},
+					{
+						"key": "No",
+						"value": "The organization should explore the benefits of cloud computing (e.g., convenience, scalability and flexibility), and assess the feasibility of adoption."
+					}
+				]
+			},
+			{
+				"question": "Does the organization use Internet of Things (IoT)?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should ensure IoT devices are securely integrated and managed, and it should implement robust security measures for IoT."
+					},
+					{
+						"key": "No",
+						"value": "The organization should evaluate the potential benefits of IoT for its operations (e.g., operational efficiency)."
+					}
+				]
+			},
+			{
+				"question": "How does the organization manage the integration of various digital technologies?",
+				"options": [
+					"Dedicated IT team",
+					"Third-party integrators",
+					"Both",
+					"No specific process"
+				],
+				"recommendations": [
+					{
+						"key": "Dedicated IT team",
+						"value": "The organization should ensure the team is adequately sized and has the necessary skills and level of competence."
+					},
+					{
+						"key": "Third-party integrators",
+						"value": "The organization should regularly review the efficiency and effectiveness of services provided by the third-party integrators."
+					},
+					{
+						"key": "Both",
+						"value": "The organization should maintain a balanced approach and perform regular evaluations of the efficiency and effectiveness of services provided."
+					},
+					{
+						"key": "No specific process",
+						"value": "The organization should develop a process for managing technology integration either by an internal IT team or by third-party integrators."
+					}
+				]
+			},
+			{
+				"question": "Does the organization provide training to the personnel on Digital Transformation and related technologies?",
+				"options": [
+					"Regularly (quarterly)",
+					"Annually",
+					"Occasionally",
+					"Never"
+				],
+				"recommendations": [
+					{
+						"key": "Regularly",
+						"value": "The organization should ensure comprehensive and up-to-date training."
+					},
+					{
+						"key": "Annually/Occasionally",
+						"value": "The organization should increase the frequency of training sessions."
+					},
+					{
+						"key": "Never",
+						"value": "The organization should implement a regular training schedule."
+					}
+				]
+			}
+		]
+	},
+	{
+		"label": "Continuous Improvement",
+		"questions": [
+			{
+				"question": "Does the organization follow a PDCA cycle for continuous improvement?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should regularly review and adjust the PDCA cycle based on lessons learned."
+					},
+					{
+						"key": "No",
+						"value": "The organization should implement the PDCA cycle for continuous improvement."
+					}
+				]
+			},
+			{
+				"question": "How does the organization apply lessons learned from past projects?",
+				"options": [
+					"Formal review process",
+					"Informal discussions",
+					"No specific process"
+				],
+				"recommendations": [
+					{
+						"key": "Formal review process",
+						"value": "The organization should ensure lessons learned are documented and shared."
+					},
+					{
+						"key": "Informal discussions",
+						"value": "The organization should formalize the process of capturing lessons learned."
+					},
+					{
+						"key": "No specific process",
+						"value": "The organization should develop a formal process for capturing and applying lessons learned."
+					}
+				]
+			},
+			{
+				"question": "Does the organization follow relevant industry/sector Digital Transformation case-studies?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should apply relevant insights from case studies."
+					},
+					{
+						"key": "No",
+						"value": "The organization should consider searching, reviewing and applying industry case studies relevant for the organization."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have a strategy to stay updated with emerging digital trends and new technologies?",
+				"options": [
+					"Internal training",
+					"External training and events",
+					"Online resources",
+					"No specific method"
+				],
+				"recommendations": [
+					{
+						"key": "All",
+						"value": "The organization should implement a strategy for staying updated with digital trends based on internal training programmes, online courses, and external trainings and events."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have a strategy for adopting new technologies that are relevant to Digital Transformation?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should regularly review and update the strategy."
+					},
+					{
+						"key": "No",
+						"value": "The organization should develop a strategy for adopting new technologies."
+					}
+				]
+			},
+			{
+				"question": "Does the organization update the personnel’s knowledge and skills in Digital Transformation?",
+				"options": [
+					"Regularly",
+					"Occasionally",
+					"Rarely",
+					"Never"
+				],
+				"recommendations": [
+					{
+						"key": "All",
+						"value": "The organization should emphasize the importance of continuous learning, and encourage its personnel to update and improve knowledge and skills, and provide resources and support."
+					}
+				]
+			},
+			{
+				"question": "Does the organization have a feedback mechanism for employees to report issues or suggest improvements?",
+				"options": [
+					"Yes",
+					"No"
+				],
+				"recommendations": [
+					{
+						"key": "Yes",
+						"value": "The organization should ensure the feedback mechanism is trusted and actively used by employees, reviewed and improved regularly."
+					},
+					{
+						"key": "No",
+						"value": "The organization should implement a feedback mechanism and encourage employees to use it to suggest improvements."
+					}
+				]
+			},
+			{
+				"question": "Does the organization engage its customers and partners throughout the Digital Transformation journey?",
+				"options": [
+					"Regular updates",
+					"Surveys and feedback",
+					"Collaborative projects",
+					"No specific engagement"
+				],
+				"recommendations": [
+					{
+						"key": "All",
+						"value": "The organization should plan, implement and regularly improve communication and engagement strategies with both customers and partners."
+					}
+				]
+			},
+			{
+				"question": "What are the next steps in the organization’s Digital Transformation journey?",
+				"options": [
+					"Further assessment",
+					"Implementation of new technologies",
+					"Improvement of existing processes",
+					"All of the above"
+				],
+				"recommendations": [
+					{
+						"key": "All",
+						"value": "The organization should develop a detailed action plan considering the existing processes, new emerging technologies, trends, and customers’ expectations. This action plan should be regularly reviewed, updated and completed."
+					}
+				]
+			}
+		]
+	}
+]
