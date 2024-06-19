@@ -3,13 +3,15 @@ import { HttpClient } from '@angular/common/http';
 import { Section } from './models';
 import { Observable } from 'rxjs';
 
+import { environment } from '../environments/environment';
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
 
-  url: string = './assets/data.json';
+  url: string = `${environment.baseUrl}/assets/data.json`;
   recommendations: string[][] = [[]];
 
   constructor(private http: HttpClient) { }
